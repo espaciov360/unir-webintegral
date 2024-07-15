@@ -1,0 +1,224 @@
+{
+"peliculas": [
+  {
+    "id": "1",
+    "nombre": "Terminator II: El juicio final",
+    "director": "Director 1",
+    "anio": 2020,
+    "sinopsis": "Sinopsis de la película de acción.",
+    "duracion": 120,
+    "imagen": "https://images.justwatch.com/poster/305705915/s718/terminator-2-el-juicio-final.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Accion"
+  },
+  {
+    "id": "2",
+    "nombre": "El libro en la Selva",
+    "director": "Director 2",
+    "anio": 2019,
+    "sinopsis": "Una emocionante aventura en lo más profundo de la selva.",
+    "duracion": 130,
+    "imagen": "https://www.ecartelera.com/carteles/8100/8126/016_m.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Comedia"
+  },
+  {
+    "id": "3",
+    "nombre": "Harry Potter 3",
+    "director": "Director 3",
+    "anio": 2021,
+    "sinopsis": "Descubrimiento de un misterio que cambiará la historia.",
+    "duracion": 110,
+    "imagen": "https://play-lh.googleusercontent.com/71b8wr64pCgK5BmkOtM-uMHJ7QTDulqMEMfYdbEQ53fnf0GYa-HZ2Jw_7KmoBZAZ6BhTthPLS1nkEzYiObo",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Drama"
+  },
+  {
+    "id": "4",
+    "nombre": "¿Donde estan las rubias?",
+    "director": "Director 4",
+    "anio": 2018,
+    "sinopsis": "Una comedia para disfrutar y reír sin parar.",
+    "duracion": 90,
+    "imagen": "https://m.media-amazon.com/images/S/pv-target-images/689c9996f2efdf0d350df778afe102b6a325cc8fce9121caaee8fc03afc7a32a.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Comedia"
+  },
+  {
+    "id": "5",
+    "nombre": "Diario de una pasión",
+    "director": "Director 5",
+    "anio": 2022,
+    "sinopsis": "Una historia de amor que trasciende el tiempo.",
+    "duracion": 140,
+    "imagen": "https://musicart.xboxlive.com/7/f31d3300-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Drama"
+  },
+  {
+    "id": "6",
+    "nombre": "Hablame",
+    "director": "Director 6",
+    "anio": 2020,
+    "sinopsis": "No podrás dormir después de ver esta película.",
+    "duracion": 100,
+    "imagen": "https://pics.filmaffinity.com/Haablame-840055936-large.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Accion"
+  },
+  {
+    "id": "7",
+    "nombre": "Volver al futuro",
+    "director": "Director 7",
+    "anio": 2023,
+    "sinopsis": "Un vistazo a cómo podría ser nuestro futuro.",
+    "duracion": 115,
+    "imagen": "https://i.etsystatic.com/23402008/r/il/bddd25/3286611625/il_570xN.3286611625_dw8n.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Accion"
+  },
+  {
+    "id": "8",
+    "nombre": "Volviendo a casa 2",
+    "director": "Director 8",
+    "anio": 2019,
+    "sinopsis": "Explora las maravillas de nuestro planeta.",
+    "duracion": 80,
+    "imagen": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/1996/3/w1280/ewbrfD0N6x8r86yAalFrWrRcDby.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Comedia"
+  },
+  {
+    "id": "9",
+    "nombre": "El Gran Robo",
+    "director": "Director 9",
+    "anio": 2021,
+    "sinopsis": "Un robo que parece imposible, hasta ahora.",
+    "duracion": 105,
+    "imagen": "https://pics.filmaffinity.com/flypaper-108365008-large.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Accion"
+  },
+  {
+    "id": "10",
+    "nombre": "Interestelar",
+    "director": "Director 10",
+    "anio": 2022,
+    "sinopsis": "Una aventura más allá de las estrellas.",
+    "duracion": 120,
+    "imagen": "https://i.pinimg.com/originals/c2/55/6d/c2556d164c3acc8004a946a8d02beda9.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Accion"
+  },
+  {
+    "id": "11",
+    "nombre": "Historia sin fin",
+    "director": "Director 11",
+    "anio": 2018,
+    "sinopsis": "Un mundo donde lo imposible se hace realidad.",
+    "duracion": 130,
+    "imagen": "https://i.pinimg.com/474x/e6/de/f4/e6def4f2aab6dfc613e3ed83bcadd7e4.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Comedia"
+  },
+  {
+    "id": "12",
+    "nombre": "Un detective en el kinder",
+    "director": "Director 12",
+    "anio": 2023,
+    "sinopsis": "Un misterio que solo el mejor detective puede resolver.",
+    "duracion": 95,
+    "imagen": "https://m.media-amazon.com/images/S/pv-target-images/cf33da62dd563798a4d3c8255ae2b7e52084e927fecf8fe53065e2c424627114.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Drama"
+  },
+  {
+    "id": "13",
+    "nombre": "La Rebelión",
+    "director": "Director 13",
+    "anio": 2020,
+    "sinopsis": "La lucha por la libertad contra un régimen opresor.",
+    "duracion": 110,
+    "imagen": "https://cinedidymedome.co/resenas/wp-content/uploads/2019/05/captive-state-la-rebeli%C3%B3n-2019-poster.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Accion"
+  },
+  {
+    "id": "14",
+    "nombre": "Viaje al centro de la tierra",
+    "director": "Director 14",
+    "anio": 2021,
+    "sinopsis": "Un viaje de descubrimiento personal y transformación.",
+    "duracion": 125,
+    "imagen": "https://es.web.img3.acsta.net/medias/nmedia/18/66/88/98/20250073.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Drama"
+  },
+  {
+    "id": "15",
+    "nombre": "Encuentros Cercanos",
+    "director": "Director 15",
+    "anio": 2019,
+    "sinopsis": "Cuando lo extraterrestre y lo humano se encuentran.",
+    "duracion": 90,
+    "imagen": "https://i.pinimg.com/736x/b6/a7/6c/b6a76cbb529c7d173ab6b464a27d54c6.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Accion"
+  },
+  {
+    "id": "16",
+    "nombre": "La Isla Misteriosa",
+    "director": "Director 16",
+    "anio": 2022,
+    "sinopsis": "Una isla que esconde más secretos de los que se pueden imaginar.",
+    "duracion": 140,
+    "imagen": "https://m.media-amazon.com/images/S/pv-target-images/295a048a25b8c57d57efab19f1264483a9f7a1c0b10e4c39deabd2b42660a128.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Comedia"
+  },
+  {
+    "id": "17",
+    "nombre": "El Hechizo",
+    "director": "Director 17",
+    "anio": 2020,
+    "sinopsis": "Un hechizo que cambia todo lo que conocemos.",
+    "duracion": 100,
+    "imagen": "https://pics.filmaffinity.com/El_hechizo-530888058-large.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Accion"
+  },
+  {
+    "id": "18",
+    "nombre": "Ready player one",
+    "director": "Director 18",
+    "anio": 2021,
+    "sinopsis": "Una fuga de prisión meticulosamente planeada.",
+    "duracion": 115,
+    "imagen": "https://movieposters2.com/images/1568983-b.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Accion"
+  },
+  {
+    "id": "19",
+    "nombre": "El Retorno del rey",
+    "director": "Director 19",
+    "anio": 2023,
+    "sinopsis": "El regreso a casa después de una larga ausencia.",
+    "duracion": 105,
+    "imagen": "https://m.media-amazon.com/images/I/71X6YzwV0gL._AC_UF894,1000_QL80_.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Drama"
+  },
+  {
+    "id": "20",
+    "nombre": "El juego de Ender",
+    "director": "Director 20",
+    "anio": 2022,
+    "sinopsis": "La humanidad se aventura más allá de la Tierra.",
+    "duracion": 130,
+    "imagen": "https://m.media-amazon.com/images/I/61BI5iqsQAL._AC_UF894,1000_QL80_.jpg",
+    "trailer": "UzFZR2dRsSY",
+    "categoria": "Accion"
+  }
+]
+}

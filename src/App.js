@@ -1,25 +1,39 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
+import BarraNavegacion from './componentes/BarraNavegacion';
+import BarraBusqueda from './componentes/BarraBusqueda';
+import Inicio from './paginas/Inicio';
+import Busqueda from './paginas/Busqueda';
+import PaginaPelicula from './paginas/Pelicula';
+import PaginaUsuario from './paginas/Usuario';
+import Footer from './componentes/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import avatar from './avatar.png';
 
-function App() {
+const usuarioMock = {
+  avatar: avatar,
+  nombre: 'Gibran Aguilar',
+};
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <BarraNavegacion usuario={usuarioMock} />
+        <BarraBusqueda />
+        <div className='contenido'>
+          <Routes>
+            <Route path="/" element={<Inicio />} />
+            <Route path="/busqueda" element={<Busqueda />} />
+            <Route path="/pelicula/:id" element={<PaginaPelicula />} />
+            <Route path="/usuario" element={<PaginaUsuario />} />
+          </Routes>        
+        </div>
+        <Footer/>
+      </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

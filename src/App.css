@@ -1,38 +1,234 @@
-.App {
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #20232a;
+  color:#FFF;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  text-align: center;
+  padding: 10px;
+  background-color: '#f0f0f0';
+}
+
+/******* COMPONENTES ************/
+
+.barra-navegacion {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height:110px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.barra-navegacion__logo {
+  padding-top:30px;
+  padding-left: 30px;
+}
+
+.barra-navegacion__usuario {
+  display: flex;
+  align-items: center;
+}
+
+.barra-navegacion__usuario-imagen {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.barra-busqueda {
+  position: fixed;
+  top: 110px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  padding:0 30px;
+}
+
+.barra-busqueda__input {
+  flex-grow: 1;
+  height: 40px;
+  font-size: 20px;
+  padding: 20px;
+  margin: 0 5px;
+  width:100%;
+  border-radius: 6px;
+}
+
+.barra-busqueda__boton {
+  width:80px;
+}
+
+.contenido {
+  margin-top: 120px; 
+  margin-bottom: 60px;
+  height: calc(100vh - 180px);
+  overflow-y: auto;
+}
+
+.categoria-peliculas {
+  margin: 20px 0;
+}
+
+.categoria-peliculas__titulo {
+  margin-left: 20px;
+}
+
+.lista-peliculas {
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px 20px;
+}
+
+.detalles-pelicula {  
+  padding: 20px;
+}
+
+.detalles-pelicula__info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.detalles-pelicula__info img{
+  max-width: 350px;
+}
+
+.detalles-pelicula__info p{
+  margin:0;
+}
+
+
+.detalles-pelicula__botones{
+  display: inline-flex;
+  gap:10px;
+}
+
+.pelicula {
+  margin-right: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pelicula__imagen {
+  max-width: 250px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pelicula a {
+  text-decoration: none !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pelicula__titulo {
+  color:#FFF;
+  padding-top: 10px;
+}
+
+.pelicula__titulo :hover {
+  color:#FFFF00;
+}
+
+.resultado-busqueda {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.resultado-busqueda__pelicula {
+  margin: 10px;
+  text-align: center;
+}
+
+.resultado-busqueda__pelicula-imagen {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.usuario {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
 }
 
-.App-link {
+.usuario__imagen {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.usuario__nombre {
+  margin-top: 20px;
+}
+
+.inicio {
+  padding: 20px;
+}
+
+.categoria-peliculas {
+  margin: 20px 0;
+}
+
+.categoria-peliculas__titulo {
+  margin-left: 20px;
+  color:red;
+  font-weight: bold;
+}
+
+.busqueda {
+  padding: 60px 20px;
+}
+
+.busqueda__titulo{
+  padding:30px;
+}
+
+/********* PAGINAS ***************/
+
+.pagina-pelicula {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.pagina-pelicula__imagen {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.pagina-pelicula__titulo {
+  margin: 20px 0;
+}
+
+.pagina-pelicula__enlace {
+  margin-top: 10px;
   color: #61dafb;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagina-usuario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.pagina-usuario__imagen {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.pagina-usuario__nombre {
+  margin-top: 20px;
 }
